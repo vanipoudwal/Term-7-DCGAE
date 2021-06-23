@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Add Customer</h1>
+	<form method="post" action="CustomerServlet">
+		<table>
+			<tr>
+				<td>Full Name :</td>
+				<td><input type="text" style="width: 185px;" maxlength="30" name="name" id="name" /></td>
+			</tr>
+			<tr>
+				<td>Contact No :</td>
+				<td><input type="text" style="width: 185px;" maxlength="30" name="cell" id="cell" /></td>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td><textarea style="width:185px;" id="address" ></textarea></td>
+			</tr>
+		</table>
+		<input type="submit" class="save" value="Save" />
+	</form>
+</body>
+</html>
