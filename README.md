@@ -1,2 +1,2 @@
 # Term-7-DCGAE
-This Repository Is Used To Write Deploying Cloud Using Google App Engine Code.
+This repository is used to write Deploying Cloud using Google App Engine code.
